@@ -2,17 +2,19 @@
 <html>
 <head>
 <meta charset="UTF-8">
-<title>:)</title>
+<title></title>
 <script type="text/javascript">
     function start()
     {
         var userLang = navigator.language || navigator.userLanguage; 
         if (userLang.startsWith('fr'))
         {
+            document.title = "Rappel";
             document.getElementById("text").textContent = "Range ton téléphone.";
         }
         else
         {
+            document.title = "Reminder"
             document.getElementById("text").textContent = "Put away your phone.";
         }
     }

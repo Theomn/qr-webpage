@@ -1,3 +1,3 @@
-[theomn.github.io/qr-menu/](https://theomn.github.io/qr-menu/)
+https://theomn.github.io/qr-webpage/
 
 ![alt text](qrcode.png)

@@ -10,12 +10,12 @@
         if (userLang.startsWith('fr'))
         {
             document.title = "Rappel Amical";
-            document.getElementById("text").textContent = "Décroche de ton cell esti.";
+            document.getElementById("text").textContent = "Range ton téléphone.";
         }
         else
         {
             document.title = "Friendly Reminder"
-            document.getElementById("text").textContent = "Get off your fucking phone.";
+            document.getElementById("text").textContent = "Put away your phone.";
         }
     }
     window.onload = start;
@@ -33,7 +33,7 @@
 </head>
 
 <body>
-    <p style="justify-content: center; align-items: center;" id="text"></p>
+    <p id="text"></p>
 </body>
 
 </html>

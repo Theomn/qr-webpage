@@ -9,21 +9,31 @@
         var userLang = navigator.language || navigator.userLanguage; 
         if (userLang.startsWith('fr'))
         {
-            document.title = "Rappel amical";
-            document.getElementById("text").textContent = "Décroche de ton cell esti";
+            document.title = "Rappel Amical";
+            document.getElementById("text").textContent = "Décroche de ton cell esti.";
         }
         else
         {
-            document.title = "Friendly reminder"
-            document.getElementById("text").textContent = "Get off your fucking phone";
+            document.title = "Friendly Reminder"
+            document.getElementById("text").textContent = "Get off your fucking phone.";
         }
     }
     window.onload = start;
 </script>
+<style>
+    body {
+      display: flex;
+      justify-content: center;
+      align-items: center;
+      height: 100vh;
+      margin: 0;
+      font-size: 2rem;
+    }
+  </style>
 </head>
 
 <body>
-    <p id="text"></p>
+    <p style="justify-content: center; align-items: center;" id="text"></p>
 </body>
 
 </html>

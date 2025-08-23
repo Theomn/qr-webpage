@@ -1,0 +1,29 @@
+<!DOCTYPE html>
+<html>
+<head>
+<meta charset="UTF-8">
+<title></title>
+<script type="text/javascript">
+    function start()
+    {
+        var userLang = navigator.language || navigator.userLanguage; 
+        if (userLang.startsWith('fr'))
+        {
+            document.title = "Rappel amical";
+            document.getElementById("text").textContent = "Décroche de ton cell esti";
+        }
+        else
+        {
+            document.title = "Friendly reminder"
+            document.getElementById("text").textContent = "Get off your fucking phone";
+        }
+    }
+    window.onload = start;
+</script>
+</head>
+
+<body>
+    <p id="text"></p>
+</body>
+
+</html>

@@ -1,3 +1,3 @@
-https://theomn.github.io/friendly-reminder/
+theomn.github.io/qr-menu/
 
 ![alt text](qrcode.png?raw=true)
